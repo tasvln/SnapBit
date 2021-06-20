@@ -1,0 +1,17 @@
+{
+    "name": "SnapBit",
+    "description": "Take a Screen Shot With Snap Bit!",
+    "version": "1.0",
+    "manifest_version": 3,
+
+    "background": {
+      "service_worker": "app/src/background.js"
+    },
+    "icons": {
+        "16": "app/icon/icon16.png",
+        "32": "app/icon/icon32.png",
+        "48": "app/icon/icon48.png",
+        "128": "app/icon/icon128.png"
+    },
+    "permissions": [  ]
+  }
